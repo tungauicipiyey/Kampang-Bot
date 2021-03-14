@@ -233,17 +233,17 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (              
         f"**   ╭▻......**╰▻ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ◅╯**......◅╮\n\n"           
-        f"ㅤ**𝐒𝐢𝐚𝐩𝐚𝐩𝐮𝐧 𝐁𝐢𝐬𝐚 𝐉𝐚𝐝𝐢 𝐀𝐩𝐚𝐩𝐮𝐧..!** \n\n"
+        f"**𝐒𝐢𝐚𝐩𝐚𝐩𝐮𝐧 𝐁𝐢𝐬𝐚 𝐉𝐚𝐝𝐢 𝐀𝐩𝐚𝐩𝐮𝐧..!** \n\n"
         f"**╭━━━━━━━━━━━━━━━━━━━━╮** \n"
         f"➨⚔ **𝚃𝚑𝚎 𝙺𝚒𝚗𝚐**    :   `{DEFAULTUSER}` \n"
         f"➨⛓ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎**   :   `@{user.username}` \n"
         f"➨🐍 **𝙿𝚢𝚝𝚑𝚘𝚗**        :   `Versi {python_version()}` \n"
-        f"➨🛠 **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗**    :   `Versi {version.__version__}` \n"
+        f"➨🛠 **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗**   :   `Versi {version.__version__}` \n"
         f"➨☠ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**      :   `{BOT_VER}` \n"  
         f"**╰━━━━━━━━━━━━━━━━━━━━╯** \n"   
         f"**ㅤㅤ🔰•PEMILIK•**   :   **[TUNGAU](t.me/DamnBitchh)** \n"
         f"**▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱** \n"
-        f"** | [Grup Oficial](t.me/CariTemen_Random)**      |--|      **[Instagram](https://www.instagram.com/arimulyaa_/) | ")     
+        f"** ㅤ| [Grup Oficial](t.me/CariTemen_Random)**      |--|      **[Instagram](https://www.instagram.com/arimulyaa_/) | ")     
       
 
         
