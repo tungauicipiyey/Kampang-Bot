@@ -1,5 +1,5 @@
 # We're using Ubuntu 20.10
-FROM koala21/dockerkampang:latest
+FROM koala21/koala21/dockerbuild:latest
 #
 # Clone repo and prepare working directory
 #
@@ -11,7 +11,4 @@ WORKDIR /root/userbot
 #Install python requirements
 RUN pip3 install -r https://raw.githubusercontent.com/ManusiaRakitan/Kampang-Bot/Kampang/requirements.txt
 
-EXPOSE 80 443
-
-# Finalization
 CMD ["python3","-m","userbot"]
