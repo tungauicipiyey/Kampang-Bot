@@ -170,8 +170,8 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """ For .usergay command, just returns the repo URL. """
     await wannasee.edit(
-         " **Instagram : ** [Klik For Instagram](https://www.instagram.com/arimulyaa_/)"
-     )
+        " **Instagram : ** [Klik For Instagram](https://www.instagram.com/arimulyaa_/)"
+    )
 
 
 @register(outgoing=True, pattern="^.raw$")
