@@ -1,5 +1,5 @@
-# We're using Ubuntu 20.10
-FROM koala21/dockerbuild:latest
+# Using Python Slim-Buster
+FROM koala21/kampangbot:buster
 #
 # Clone repo and prepare working directory
 #
@@ -10,6 +10,8 @@ WORKDIR /root/userbot
 
 #Install python requirements
 RUN pip3 install -r https://raw.githubusercontent.com/tungauicipiyey/kampang-bot/Kampang/requirements.txt
+
+EXPOSE 80 443
 
 # Finalization
 CMD ["python3","-m","userbot"]
