@@ -93,7 +93,7 @@ async def pingme(pong):
     await pong.edit("**▇▅▄▃▂▁**")
     await pong.edit("**▇▆▅▄▃▂▁**")
     await pong.edit("**█▇▆▅▄▃▂▁**")
-    await pong.edit("**PING!!!**")
+    await pong.edit("**PING!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**ㅤㅤㅤ  ≛ 𝙲𝙾𝚁𝙾𝙽𝙰 𝚅𝙸𝚁𝚄𝚂 ≛** \n ㅤ**▰▱▰▱▰▱▰▱▰▱▰▱▰** \n╭╼═════════════════╾╮\n⌲Ping Virus  :  %s𝖒𝖘\n⌲Virus Aktif  :  {uptime} 𝐎𝐍⊨〛\n⌲My Boss   : ㅤ`{ALIVE_NAME}`\n╰╼═════════════════╾╯ " % (duration))              
@@ -105,10 +105,12 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("👉 ")
-    await pong.edit("👉👌 ")
-    await pong.edit(" 👉👌💦 ")
-    await pong.edit("💦💦💦💦 ")
+    await pong.edit("**𝐕**")
+    await pong.edit("**𝐈**")
+    await pong.edit("**𝐑**")
+    await pong.edit("**𝐔**")
+    await pong.edit("**𝐒**")
+    await pong.edit("**⚡**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**𖣘PING𖣘 **\n ➟%s𝖒𝖘\n**𖣘TIME AKTIF𖣘**\n ➟ {uptime} DANGER" % (duration))
