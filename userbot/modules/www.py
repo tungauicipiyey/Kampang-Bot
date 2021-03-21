@@ -9,6 +9,7 @@
 from datetime import datetime
 
 from speedtest import Speedtest
+from time import sleep
 from userbot import CMD_HELP, StartTime, ALIVE_NAME
 from userbot.events import register
 import time
@@ -111,6 +112,7 @@ async def pingme(pong):
     await pong.edit("**𝐔**")
     await pong.edit("**𝐒**")
     await pong.edit("**⚡**")
+    sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**𖣘PING𖣘 **\n ➟%s𝖒𝖘\n**𖣘TIME AKTIF𖣘**\n ➟ {uptime} DANGER" % (duration))
